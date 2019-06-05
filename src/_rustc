@@ -11,7 +11,7 @@ arguments=(
   '--crate-name[specify the name of the crate being built]'
   '--edition:specify which edition of the compiler to use when compiling code:(2015 2018)'
   '--emit[\[asm|llvm-bc|llvm-ir|obj|metadata|link|dep-info|mir\] comma separated list of types of output for the compiler to emit]'
-  '--print[\[crate-name|file-names|sysroot|cfg|target-list|target-cpus|target-features|relocation-models|code-models|tls-models|target-spec-json|native-static-libs\] compiler information to print on stdout]'
+  '--print:compiler information to print on stdout:(crate-name file-names sysroot cfg target-list target-cpus target-features relocation-models code-models tls-models target-spec-json native-static-libs)'
   '-g[equivalent to -C debuginfo=2]'
   '-O[equivalent to -C opt-level=2]'
   '-o[write output to <filename>]'
