@@ -18,7 +18,7 @@ zcomp_init () {
     # your completion configuration
 }
 
-# load 0 seconds after prompt and then call zcomp_init() after load this plugin
+# load 0 second after prompt, and then call zcomp_init() after load this plugin
 zplugin ice lucid wait"0" blockf atload"zcomp_init"; zplugin light sainnhe/rust-zsh-completions
 ```
 
