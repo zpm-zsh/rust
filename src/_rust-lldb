@@ -40,7 +40,7 @@ arguments=(
   '-e[alias for --editor]'
   '--file[tells the debugger to use the file <filename> as the program to be debugged.]'
   '-f[alias for --file]'
-  '--help[prints out the usage information for the LLDB debugger.]'
+  '--help[show help message]'
   '-h[alias for --help]'
   '--no-use-colors[do not use colors.]'
   '--replay[tells the debugger to replay a reproducer from <filename>.]'

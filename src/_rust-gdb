@@ -33,7 +33,7 @@ arguments=(
   '--batch-silent[like --batch, but suppress all gdb stdout output.]'
   '--return-child-result[GDB exit code will be the childs exit code.]'
   '--configuration[print details about GDB configuration and then exit.]'
-  '--help[print this message and then exit.]'
+  '--help[show help message]'
   '--version[print version information and then exit.]'
   '-b[set serial port baud rate used for remote debugging.]'
   '-l[set timeout in seconds for remote debugging.]'

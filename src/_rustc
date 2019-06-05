@@ -5,7 +5,7 @@
 local arguments
 
 arguments=(
-  {-h,--help}'[display this message]'
+  {-h,--help}'[show help message]'
   '--cfg[configure the compilation environment]'
   '-L[\]PATH      Add a directory to the library search path. The]'
   '-l[\]NAME      Link the generated crate(s) to the specified native]'
