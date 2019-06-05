@@ -1,7 +1,5 @@
 #compdef rustc
 
-# zsh completions for 'rustc'
-# automatically generated with http://github.com/RobSis/zsh-completion-generator
 local arguments
 
 arguments=(

@@ -1,7 +1,5 @@
 #compdef rls
 
-# zsh completions for 'rls'
-# automatically generated with http://github.com/RobSis/zsh-completion-generator
 local arguments
 
 arguments=(

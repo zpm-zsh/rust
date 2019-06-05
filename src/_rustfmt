@@ -1,13 +1,11 @@
 #compdef rustfmt
 
-# zsh completions for 'rustfmt'
-# automatically generated with http://github.com/RobSis/zsh-completion-generator
 local arguments
 
 arguments=(
   '--check[run in check mode. Exits with 0 if input is]'
   '--emit[what data to emit and how]'
-  '--backup[backup any modified files.]'
+  '--backup[backup any modified files]'
   '--config-path[for the configuration file\]]'
   '--edition[2015|2018\]]'
   '--color[use colored output (if supported)]'
@@ -15,7 +13,7 @@ arguments=(
   '--unstable-features[enables unstable features. Only available on nightly]'
   '--file-lines[format specified line ranges. Run with]'
   '--error-on-unformatted[error if unable to get comments or string literals]'
-  '--skip-children[dont reformat child modules (unstable).]'
+  '--skip-children[dont reformat child modules (unstable)]'
   {-v,--verbose}'[print verbose output]'
   {-q,--quiet}'[print less output]'
   {-V,--version}'[show version information]'

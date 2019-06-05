@@ -1,7 +1,5 @@
 #compdef rustdoc
 
-# zsh completions for 'rustdoc'
-# automatically generated with http://github.com/RobSis/zsh-completion-generator
 local arguments
 
 arguments=(
@@ -44,7 +42,7 @@ arguments=(
   '--sort-modules-by-appearance[sort modules by where they appear in the program]'
   '--themes[additional themes which will be added to the generated]'
   '--theme-checker[check if given theme is valid]'
-  '--resource-suffix[suffix to add to CSS and JavaScript files, e.g.]'
+  '--resource-suffix[suffix to add to CSS and JavaScript files, e.g]'
   '--edition[edition to use when compiling rust code (default:]'
   '--color[configure coloring of output:]'
   '--error-format[how errors and other messages are produced]'
